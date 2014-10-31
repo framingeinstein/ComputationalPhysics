@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9676846D19F0642D00ED0050 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9676846C19F0642D00ED0050 /* main.m */; };
+		9676847019F0642D00ED0050 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9676846F19F0642D00ED0050 /* AppDelegate.m */; };
+		9676847219F0642D00ED0050 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9676847119F0642D00ED0050 /* Images.xcassets */; };
+		9676847519F0642D00ED0050 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9676847319F0642D00ED0050 /* MainMenu.xib */; };
+		9676848119F0642D00ED0050 /* PlotterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9676848019F0642D00ED0050 /* PlotterTests.m */; };
+		9676848C19F0702B00ED0050 /* PlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9676848B19F0702B00ED0050 /* PlotView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9676847B19F0642D00ED0050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9676845F19F0642D00ED0050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9676846619F0642D00ED0050;
+			remoteInfo = Plotter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9676846719F0642D00ED0050 /* Plotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9676846B19F0642D00ED0050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9676846C19F0642D00ED0050 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9676846E19F0642D00ED0050 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9676846F19F0642D00ED0050 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9676847119F0642D00ED0050 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9676847419F0642D00ED0050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9676847A19F0642D00ED0050 /* PlotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlotterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9676847F19F0642D00ED0050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9676848019F0642D00ED0050 /* PlotterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlotterTests.m; sourceTree = "<group>"; };
+		9676848A19F0702B00ED0050 /* PlotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlotView.h; sourceTree = "<group>"; };
+		9676848B19F0702B00ED0050 /* PlotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlotView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9676846419F0642D00ED0050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9676847719F0642D00ED0050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9676845E19F0642C00ED0050 = {
+			isa = PBXGroup;
+			children = (
+				9676846919F0642D00ED0050 /* Plotter */,
+				9676847D19F0642D00ED0050 /* PlotterTests */,
+				9676846819F0642D00ED0050 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9676846819F0642D00ED0050 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9676846719F0642D00ED0050 /* Plotter.app */,
+				9676847A19F0642D00ED0050 /* PlotterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9676846919F0642D00ED0050 /* Plotter */ = {
+			isa = PBXGroup;
+			children = (
+				9676846E19F0642D00ED0050 /* AppDelegate.h */,
+				9676846F19F0642D00ED0050 /* AppDelegate.m */,
+				9676847119F0642D00ED0050 /* Images.xcassets */,
+				9676847319F0642D00ED0050 /* MainMenu.xib */,
+				9676846A19F0642D00ED0050 /* Supporting Files */,
+				9676848A19F0702B00ED0050 /* PlotView.h */,
+				9676848B19F0702B00ED0050 /* PlotView.m */,
+			);
+			path = Plotter;
+			sourceTree = "<group>";
+		};
+		9676846A19F0642D00ED0050 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9676846B19F0642D00ED0050 /* Info.plist */,
+				9676846C19F0642D00ED0050 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9676847D19F0642D00ED0050 /* PlotterTests */ = {
+			isa = PBXGroup;
+			children = (
+				9676848019F0642D00ED0050 /* PlotterTests.m */,
+				9676847E19F0642D00ED0050 /* Supporting Files */,
+			);
+			path = PlotterTests;
+			sourceTree = "<group>";
+		};
+		9676847E19F0642D00ED0050 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9676847F19F0642D00ED0050 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9676846619F0642D00ED0050 /* Plotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9676848419F0642D00ED0050 /* Build configuration list for PBXNativeTarget "Plotter" */;
+			buildPhases = (
+				9676846319F0642D00ED0050 /* Sources */,
+				9676846419F0642D00ED0050 /* Frameworks */,
+				9676846519F0642D00ED0050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Plotter;
+			productName = Plotter;
+			productReference = 9676846719F0642D00ED0050 /* Plotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9676847919F0642D00ED0050 /* PlotterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9676848719F0642D00ED0050 /* Build configuration list for PBXNativeTarget "PlotterTests" */;
+			buildPhases = (
+				9676847619F0642D00ED0050 /* Sources */,
+				9676847719F0642D00ED0050 /* Frameworks */,
+				9676847819F0642D00ED0050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9676847C19F0642D00ED0050 /* PBXTargetDependency */,
+			);
+			name = PlotterTests;
+			productName = PlotterTests;
+			productReference = 9676847A19F0642D00ED0050 /* PlotterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9676845F19F0642D00ED0050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Jason Morgan";
+				TargetAttributes = {
+					9676846619F0642D00ED0050 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					9676847919F0642D00ED0050 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 9676846619F0642D00ED0050;
+					};
+				};
+			};
+			buildConfigurationList = 9676846219F0642D00ED0050 /* Build configuration list for PBXProject "Plotter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9676845E19F0642C00ED0050;
+			productRefGroup = 9676846819F0642D00ED0050 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9676846619F0642D00ED0050 /* Plotter */,
+				9676847919F0642D00ED0050 /* PlotterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9676846519F0642D00ED0050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9676847219F0642D00ED0050 /* Images.xcassets in Resources */,
+				9676847519F0642D00ED0050 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9676847819F0642D00ED0050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9676846319F0642D00ED0050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9676848C19F0702B00ED0050 /* PlotView.m in Sources */,
+				9676847019F0642D00ED0050 /* AppDelegate.m in Sources */,
+				9676846D19F0642D00ED0050 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9676847619F0642D00ED0050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9676848119F0642D00ED0050 /* PlotterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9676847C19F0642D00ED0050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9676846619F0642D00ED0050 /* Plotter */;
+			targetProxy = 9676847B19F0642D00ED0050 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9676847319F0642D00ED0050 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9676847419F0642D00ED0050 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9676848219F0642D00ED0050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9676848319F0642D00ED0050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9676848519F0642D00ED0050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Plotter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9676848619F0642D00ED0050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Plotter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9676848819F0642D00ED0050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlotterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plotter.app/Contents/MacOS/Plotter";
+			};
+			name = Debug;
+		};
+		9676848919F0642D00ED0050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlotterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plotter.app/Contents/MacOS/Plotter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9676846219F0642D00ED0050 /* Build configuration list for PBXProject "Plotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9676848219F0642D00ED0050 /* Debug */,
+				9676848319F0642D00ED0050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9676848419F0642D00ED0050 /* Build configuration list for PBXNativeTarget "Plotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9676848519F0642D00ED0050 /* Debug */,
+				9676848619F0642D00ED0050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9676848719F0642D00ED0050 /* Build configuration list for PBXNativeTarget "PlotterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9676848819F0642D00ED0050 /* Debug */,
+				9676848919F0642D00ED0050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9676845F19F0642D00ED0050 /* Project object */;
+}
