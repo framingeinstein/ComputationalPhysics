@@ -28,6 +28,7 @@ int main()
 	cout << "and vector b:\n" << b << endl << endl;
 	cout << "gives :" << endl;
 	
+	//QR factorization uses gauss elimination	
 	ColPivHouseholderQR<MatrixXd> qr;
 	qr.compute(A);
 	cout << qr.solve(b) << endl;
